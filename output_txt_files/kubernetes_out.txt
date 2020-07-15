@@ -1,1 +1,9 @@
-<paste log output from Kubernetes-mediated prediction, here>
+(.devops) Macs-MacBook-Pro-2:project-ml-microservice-kubernetes mac$ ./run_kubernetes.sh 
+kubectl run --generator=deployment/apps.v1 is DEPRECATED and will be removed in a future version. Use kubectl run --generator=run-pod/v1 or kubectl create instead.
+Error from server (AlreadyExists): deployments.apps "udacity-p4" already exists
+NAME                          READY   STATUS    RESTARTS   AGE
+udacity-p4-7cf694bd6f-6mq9j   1/1     Running   0          61m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
